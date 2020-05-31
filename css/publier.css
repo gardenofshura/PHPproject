@@ -23,6 +23,13 @@ body{
   border-color: rgb(203, 157, 241);
 }
 
+.logo::before{
+  content : url("../img/inspimac.png");
+  width : 5%;
+  /* background-image: url("../img/inspimac-logo.png");
+  background-size: 50%; */
+}
+
 #affiche form{
   margin-top:5%;
   width: 45%;
