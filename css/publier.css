@@ -1,0 +1,85 @@
+body{
+    background-color : #D1B2EA
+}
+
+/* ----------------
+    NAVBAR
+--------------- */
+
+.navbar{
+  background-color: #fff68f;
+  padding-left : 10%;
+  padding-right : 10%;
+}
+
+.navbar button{
+  color : rgb(203, 157, 241);
+  border-color: rgb(203, 157, 241);
+}
+
+.navbar button:hover{
+  color : #fff68f;
+  background-color: rgb(203, 157, 241);
+  border-color: rgb(203, 157, 241);
+}
+
+#affiche form{
+  margin-top:5%;
+  width: 45%;
+  height : auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding-top: 2%;
+  opacity: 100%;
+  color: black;
+  font-style: bold;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  #affiche form{
+      width : 90%;
+      padding : 2%;
+  }
+}
+
+textarea{
+  width : 90%;
+  margin : auto;
+}
+
+#affichePubli{
+  margin-top:5%;
+}
+
+#affichePubli .card{
+  margin : 0px;
+  background-color:#fff68f;
+}
+
+#affichePubli iframe {
+  width :auto;
+  width : auto;
+}
+
+.btn-outline-light{
+  background-color: #D1B2EA;
+  color: white;
+}
+
+.btn-outline-light:hover{
+  color: #D1B2EA;
+  border : 1px solid #D1B2EA;
+}
+
+input , label {
+  padding-left : 10px;
+  padding-right : 10px;
+}
+/* html <meta name="viewport" content="width=device-width, initial-scale=1">*/
+
+/* propriété utilisée dans publier.php lors de l'affichage du texte "Vous avez partagé cette oeuvre" */
+p {
+  font-size: 1.4em;
+}
